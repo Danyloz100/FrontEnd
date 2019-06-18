@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  box-shadow: #bbb8ad 0px 35px 60px 25px;
+}
+
+.header-top {
+  padding: 10px 0;
+  width: 100%;
+  background: #1f0401;
+  color: #fff;
+  font-size: 14px;
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.h-list {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  color: #706a69;
+}
+
+.h-list .h-list__item {
+  margin-right: 10px;
+}
+
+.header-bottom {
+  background-image: url("../img/header-bg.jpg");
+}
+
+.center {
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.center__left {
+  display: flex;
+}
+
+.cart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cart span {
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.cart button {
+  background: #b20e00;
+  padding: 0.2em 1.2em;
+  border-radius: 7px;
+  font-size: 15px;
+  color: #ffc200;
+  font-weight: bold;
+  border-color: #1f0401;
+}
+
+.logo {
+  text-align: center;
+  color: #fafafa;
+  font-size: 45px;
+  font-weight: bold;
+  line-height: 45px;
+}
+
+/* Для хедера і футера */
+
+.search {
+  align-self: center;
+  margin-left: 50px;
+  display: flex;
+}
+
+.search .search-in {
+  width: 190px;
+  padding: 0.74em 0;
+}
+
+.search label {
+  background: #b20e00;
+  padding: 0.5em 0.5em;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  color: #f9eea1;
+  font-weight: bold;
+  margin-left: -5px;
+}
+
+.nav-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.nav-header .nav-item {
+  padding: 0.7em 0.5em;
+  color: #fff;
+  cursor: pointer;
+}
+
+.nav-header .nav-item:hover {
+  background: url("../img/bg-nav.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
